@@ -13,7 +13,7 @@
 * @constructor
 * @param {object} config Configuration object: See Configuration Attributes
 */
-Y.{{classname}} = Y.Base.create('{{modulename}}', {{extends}}, [], {
+Y.{{classname}} = Y.Base.create('{{modulename}}', {{extend}}, [], {
     /**
     * @method initializer
     */
