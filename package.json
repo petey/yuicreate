@@ -1,0 +1,27 @@
+{
+  "author": {
+      "name": "Peter Peterson"
+  },
+  "name": "yuicreate",
+  "description": "Tool to assist with creating the YUI3 boilerplate code for a new module",
+  "version": "0.1.1",
+  "keywords" : ["yui"],
+  "engines": {
+    "node": "~0.4.8"
+  },
+  "directories": {
+    "lib": "./lib",
+    "bin": "./bin",
+    "templates": "./templates"
+  },
+  "dependencies": {
+    "yui3": ">=0.7.9",
+    "mkdirp": ">=0.0.7",
+    "mustache": ">=0.3.0"
+  },
+  "bin": {
+    "yuicreate": "./bin/cli.js"
+  },
+  "preferGlobal": true,
+  "private": true
+}
