@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- YUI 3 {{modulename}} Build File -->
+
+<project name="{{modulename}}" default="local">
+  <property file="build.properties" />
+  <description>{{modulename}} Build File</description>
+  <import file="${builddir}/3.x/bootstrap.xml" description="Default Build Properties and Targets" />
+</project>
