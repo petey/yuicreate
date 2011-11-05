@@ -4,7 +4,7 @@
   },
   "name": "yuicreate",
   "description": "Tool to assist with creating the YUI3 boilerplate code for a new module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "keywords" : ["yui"],
   "engines": {
     "node": "~0.4.8"
